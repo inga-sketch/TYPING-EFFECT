@@ -1,0 +1,55 @@
+body {
+    background-color: #333;
+    font-family: sans-serif;
+    color: white;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+}
+h1 span {
+   visibility: hidden;
+   animation: type 0.25s 2;
+   animation-fill-mode: forwards;
+}
+h1 span:nth-child(1) {
+   animation-delay: 0.5s;
+}
+h1 span:nth-child(2) {
+   animation-delay: 1s;
+}
+h1 span:nth-child(3) {
+   animation-delay: 1.5s;
+}
+h1 span:nth-child(4) {
+   animation-delay: 2s;
+}
+h1 span:nth-child(5) {
+   animation-delay: 2.5s;
+}
+h1 span:nth-child(6) {
+   animation-delay: 3s;
+}
+h1 span:nth-child(7) {
+   animation-delay: 3.5s;
+}
+h1 span:nth-child(8) {
+   animation-delay: 4s;
+}
+h1 span:nth-child(9) {
+   animation-delay: 4.5s;
+}
+h1 span:nth-child(10) {
+   animation-delay: 5s;
+}
+h1 span:nth-child(11) {
+   animation-delay: 5s;
+}
+h1 span:nth-child(12) {
+   animation-delay: 5.5s;
+}
+@keyframes type {
+    0% {visibility: hidden;}
+    80% {visibility: hidden;}
+    100%  {visibility: visible;}
+}
